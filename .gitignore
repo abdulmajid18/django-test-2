@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sql
+*.sqlite3
+*.db
+
+# Django migrations
+**/migrations/*
+
+# If you are using SQLite3 as your database
+db.sqlite3
+db.sqlite3-journal
+
+# Local environment settings
+.env
+*.env
+
+# Secrets
+secrets.json
+
+# Media files
+/media
+
+# Static files
+/static
+/staticfiles
+
+# Virtual environments
+env/
+venv/
+ENV/
+ENV.bak/
+ven
